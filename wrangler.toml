@@ -1,0 +1,11 @@
+name = "fudik-ai-payments"
+main = "worker.js"
+compatibility_date = "2026-11-26"
+
+[[kv_namespaces]]
+binding = "SUBSCRIPTIONS"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+[vars]
+SITE_URL = "https://YOUR-SITE.pages.dev"
+ALLOWED_ORIGIN = "https://YOUR-SITE.pages.dev"
